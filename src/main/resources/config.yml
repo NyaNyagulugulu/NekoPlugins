@@ -1,0 +1,223 @@
+#加入消息
+join:
+  broadcast: "&a喵！猫娘 &f%player% &a钻进了猫窝喵~！"
+  title: "&b欢迎回来，%player%！"
+  subtitle: "&7你被猫窝想念了。"
+  #音效
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  #随机语录
+  quotes:
+    - "今天也是充满希望的一天。"
+    - "小奶猫想你了喵～"
+    - "我们都在等你上线。"
+    - "愿你与世界温柔相拥。"
+
+#退出消息
+quit:
+  broadcast: "&c猫娘 &f%player% &c离开猫窝去玩毛线球了喵！"
+
+#群系提示
+#主世界
+biome_titles:
+  PLAINS:
+    title: "&f平原"
+    subtitle: "&7辽阔又宁静的原野"
+  SUNFLOWER_PLAINS:
+    title: "&e向日葵平原"
+    subtitle: "&6明亮且充满阳光的地方"
+  FOREST:
+    title: "&2森林"
+    subtitle: "&a树木繁茂，生机勃勃"
+  FLOWER_FOREST:
+    title: "&d繁花森林"
+    subtitle: "&5花朵盛开，美不胜收"
+  BIRCH_FOREST:
+    title: "&f白桦森林"
+    subtitle: "&7树影婆娑的静谧之地"
+  OLD_GROWTH_BIRCH_FOREST:
+    title: "&f巨型白桦林"
+    subtitle: "&7树干高耸入云"
+  DARK_FOREST:
+    title: "&8黑森林"
+    subtitle: "&0阴影笼罩，危险潜伏"
+  TAIGA:
+    title: "&3针叶林"
+    subtitle: "&b寒冷中依然顽强生长"
+  SNOWY_TAIGA:
+    title: "&b雪原针叶林"
+    subtitle: "&f铺满白雪的林地"
+  OLD_GROWTH_PINE_TAIGA:
+    title: "&3巨型松林"
+    subtitle: "&b壮观的绿色高塔"
+  OLD_GROWTH_SPRUCE_TAIGA:
+    title: "&2巨型云杉林"
+    subtitle: "&a冷杉林地，生机盎然"
+  DESERT:
+    title: "&e沙漠"
+    subtitle: "&6炎热干燥，寸草不生"
+  SAVANNA:
+    title: "&6热带草原"
+    subtitle: "&e阳光充沛的开阔地"
+  WINDSWEPT_SAVANNA:
+    title: "&6风蚀草原"
+    subtitle: "&e地形奇特，狂风呼啸"
+  JUNGLE:
+    title: "&2丛林"
+    subtitle: "&a密集的绿意"
+  SPARSE_JUNGLE:
+    title: "&a稀疏丛林"
+    subtitle: "&7比想象中更安静"
+  BAMBOO_JUNGLE:
+    title: "&a竹林"
+    subtitle: "&2熊猫的乐园"
+  SWAMP:
+    title: "&2沼泽"
+    subtitle: "&a水草丛生，青蛙栖息"
+  MANGROVE_SWAMP:
+    title: "&4红树林沼泽"
+    subtitle: "&c盘根错节的湿地"
+  SNOWY_PLAINS:
+    title: "&f雪原"
+    subtitle: "&7纯净的白色世界"
+  ICE_SPIKES:
+    title: "&b冰刺平原"
+    subtitle: "&f晶莹剔透的寒地奇观"
+  SNOWY_SLOPES:
+    title: "&f雪坡"
+    subtitle: "&7小心雪崩喵！"
+  GROVE:
+    title: "&f林间空地"
+    subtitle: "&7安静的雪林环绕"
+  FROZEN_PEAKS:
+    title: "&b冰封山峰"
+    subtitle: "&f高耸入云，寒气逼人"
+  JAGGED_PEAKS:
+    title: "&f锯齿山峰"
+    subtitle: "&7地形陡峭，步步惊心"
+  STONY_PEAKS:
+    title: "&8石质山峰"
+    subtitle: "&7寸草不生的寒石壁"
+  MEADOW:
+    title: "&a山地草甸"
+    subtitle: "&2花草掩映，宁静如画"
+  CHERRY_GROVE:
+    title: "&d樱花林"
+    subtitle: "&5粉色的梦境之地"
+  BEACH:
+    title: "&6海滩"
+    subtitle: "&e海风轻抚的细沙岸"
+  SNOWY_BEACH:
+    title: "&f雪滩"
+    subtitle: "&7被寒风吹拂的海岸"
+  STONY_SHORE:
+    title: "&8石岸"
+    subtitle: "&7沉稳的灰色边界"
+  RIVER:
+    title: "&b河流"
+    subtitle: "&9水流潺潺"
+  FROZEN_RIVER:
+    title: "&f冰河"
+    subtitle: "&7表面结冰的寒水"
+  OCEAN:
+    title: "&1海洋"
+    subtitle: "&9浩瀚的蓝色世界"
+  DEEP_OCEAN:
+    title: "&1深海"
+    subtitle: "&3深邃未知的深处"
+  LUKEWARM_OCEAN:
+    title: "&3温暖海洋"
+    subtitle: "&b舒适的水域"
+  DEEP_LUKEWARM_OCEAN:
+    title: "&3深温暖海"
+    subtitle: "&b宜居的海底世界"
+  WARM_OCEAN:
+    title: "&3温暖海洋"
+    subtitle: "&b海水温暖，热带鱼群在你身边穿梭"
+  SAVANNA_PLATEAU:
+    title: "&6热带高原"
+    subtitle: "&e广阔又干燥的高地"
+  COLD_OCEAN:
+    title: "&3寒冷海洋"
+    subtitle: "&b清冷的海水"
+  DEEP_COLD_OCEAN:
+    title: "&3深寒冷海"
+    subtitle: "&b寒流涌动"
+  FROZEN_OCEAN:
+    title: "&f冰洋"
+    subtitle: "&7极寒之地"
+  DEEP_FROZEN_OCEAN:
+    title: "&f深冰洋"
+    subtitle: "&7寒气彻骨"
+  DRIPSTONE_CAVES:
+    title: "&8溶洞"
+    subtitle: "&7滴水石锥构筑的地下世界"
+  LUSH_CAVES:
+    title: "&a繁茂洞穴"
+    subtitle: "&2绿色地下花园"
+  DEEP_DARK:
+    title: "&8深暗之域"
+    subtitle: "&0噤声，别惊扰了祂……"
+  MUSHROOM_FIELDS:
+    title: "&d蘑菇岛"
+    subtitle: "&5和平又稀有的奇地"
+
+  #地狱
+  NETHER_WASTES:
+    title: "&c地狱荒地"
+    subtitle: "&4炽热、荒芜、充满危险"
+
+  SOUL_SAND_VALLEY:
+    title: "&b灵魂沙谷"
+    subtitle: "&3灵魂在耳边低语，死寂之地"
+
+  CRIMSON_FOREST:
+    title: "&c绯红森林"
+    subtitle: "&4红如血的森林，危险潜伏"
+
+  WARPED_FOREST:
+    title: "&3扭曲森林"
+    subtitle: "&2寂静又奇异，是最安全的地狱地带"
+
+  BASALT_DELTAS:
+    title: "&8玄武岩三角洲"
+    subtitle: "&7黑灰翻滚，岩浆喷发的灾地"
+
+  #末地
+  THE_END:
+    title: "&5末地主岛"
+    subtitle: "&d终结与开始的交汇之地"
+  END_HIGHLANDS:
+    title: "&5末地高地"
+    subtitle: "&d浮空的岛屿上，植物依旧生长"
+
+  END_MIDLANDS:
+    title: "&5末地中地"
+    subtitle: "&7高地与荒原之间的过渡之地"
+
+  SMALL_END_ISLANDS:
+    title: "&5末地浮岛"
+    subtitle: "&8孤立的岛屿，通向未知"
+
+  END_BARRENS:
+    title: "&8末地荒原"
+    subtitle: "&7边缘地带，空无一物"
+
+#维度副标题，也就是第三行消息
+#随机语录
+quotes:
+  #主世界
+  normal:
+    - "欢迎回到熟悉的世界。"
+    - "一切从这里开始，也许也会在这里结束。"
+  #地狱
+  nether:
+    - "地狱之火不会温暖你。"
+    - "灵魂沙在低语。"
+  #末地
+  end:
+    - "这是世界尽头的边界。"
+    - "终末即启始。"
+  #未知维度，或者是mod创建的维度
+  unknown:
+    - "你走入了被遗忘的角落。"
+    - "这里不属于任何人……"

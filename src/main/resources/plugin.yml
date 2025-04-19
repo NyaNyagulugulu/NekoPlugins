@@ -1,0 +1,32 @@
+name: neko
+version: '1.0-SNAPSHOT'
+main: xnm.neko.Main
+website: https://cnmsb.xin
+description: 一个生存玩法插件
+author: 不穿胖次の小奶猫
+api-version: '1.21'
+
+commands:
+  514:
+    description: 杀死猫娘（喵喵喵？！）就是自杀
+    usage: /514
+  killneko:
+    description: 也是杀死猫娘……
+    usage: /killneko
+  MTF:
+    description: 不告诉你喵
+    usage: /MTF
+  FTM:
+    description: 不告诉你喵
+    usage: /FTM
+  luck:
+    description: 今日人品
+    usage: /luck
+  xnm:
+    description: 配置重载
+    usage: /xnm reload
+    permission: neko.reload
+  crash:
+    description: 强制使目标玩家客户端完全卡死
+    usage: /crash <玩家>
+    permission: neko.crash
