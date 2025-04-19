@@ -43,7 +43,7 @@ public class 群系提示 implements Listener {
         String title = ChatColor.translateAlternateColorCodes('&',
                 config.getString(path + ".title", "&f" + 默认名));
         String subtitle = ChatColor.translateAlternateColorCodes('&',
-                config.getString(path + ".subtitle", "&7你来到了新的群系"));
+                config.getString(path + ".subtitle", "&7这个群系没有在服务器配置诶"));
 
         player.sendTitle(title, subtitle, 10, 60, 20);
     }
@@ -75,7 +75,7 @@ public class 群系提示 implements Listener {
         String title = ChatColor.translateAlternateColorCodes('&',
                 config.getString(path + ".title", "&f" + 默认名));
         String subtitle = ChatColor.translateAlternateColorCodes('&',
-                config.getString(path + ".subtitle", "&7你来到了新的群系"));
+                config.getString(path + ".subtitle", "&7这个群系没有在服务器配置诶"));
 
         player.sendTitle(title, subtitle, 10, 60, 20);
     }
